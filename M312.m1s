@@ -1,0 +1,1 @@
+'‘This script enables a relay to be switched on by calling M312 in the GCODE file.'’Output1’ must be mapped to ‘pin 14’ which has the relayDeactivateSignal(Output2) 

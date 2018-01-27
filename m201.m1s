@@ -1,0 +1,1 @@
+'ret = MsgBox("Has Tool been Changed?")ret = MsgBox("Once the tool has been changed, hit 'Yes' - Warning! 'No' will abort!", 68, "Has Tool been Changed?")Message( "Answer: " & ret )	If ret = 6 Then			Message( "Tool changed" )			ElseIf ret = 7 Then		Message( "Tool NOT changed" )		Code "M30"		DoOemButton(1021)		End If	 

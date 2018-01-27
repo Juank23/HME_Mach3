@@ -1,0 +1,1 @@
+'This script enables a laser to be switched on by calling M301 in the GCODE file.'’Output1’ must be mapped to ‘pin 1’ which has the relay for direct driving a spindle.ActivateSignal(Output1)  
