@@ -173,5 +173,5 @@ begin FOOTER
 "M302"
 "(Reset offset co-ordinates)"
 "G92.1"
-+"G0[ZH]M30"
++"G0[ZH]"
 "G0[XH][YH]M30"
