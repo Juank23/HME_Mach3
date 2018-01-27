@@ -1,5 +1,5 @@
 +================================================
-+                                                
++ Original code from: https://jtechphotonics.com/?p=3851                                                                                                
 + Mach2/3 - Vectric machine output configuration file   
 +    C:\ProgramData\Vectric\Aspire\V8.0\My_Post                                              
 +================================================
