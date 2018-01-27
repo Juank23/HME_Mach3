@@ -1,7 +1,8 @@
 +================================================
-+                                                
++ Original code from: https://jtechphotonics.com/?p=3851                                                
 + Vectric machine output configuration file   
-+  C:\ProgramData\Vectric\Aspire\V8.0\My_Post                                          +================================================
++  C:\ProgramData\Vectric\Aspire\V8.0\My_Post                                          
++================================================
 +                                                
 + History                                        
 +                                                  
