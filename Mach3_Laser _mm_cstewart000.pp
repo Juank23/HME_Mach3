@@ -16,8 +16,12 @@
 + Jay	   16/6/2016  Laser support and remove Z
 + C. Stew  07/01/2018 Added comments - Added G55 work offset to the header, Updated laser on/off M301/M302
 +================================================
- 
-POST_NAME = "Mach3 Laser / Modified No Z / M301 M302 - MechMate #74  (mm) (*.txt)"
++ LASER WIRING AND CONFIGURATION NOTES: 
++ M301/M302 are custom 'M' Codes for turing a relay on/off supplying a laser module with power
++ M303/M304 are custom 'M' Codes activating/deactivating an ouput pin on the CNC driver board and signaling the laser module PWM. 
++ In mach3 you must configure the outputs to match the output names called in the 'M' scripts
+
+POST_NAME = "Mach3 Laser / Modified No Z / M301 M302 M303 M304  - MechMate #74  (mm) (*.txt)"
  
 FILE_EXTENSION = ".txt"
  
@@ -109,7 +113,7 @@ begin FIRST_FEED_MOVE
  
 begin FEED_MOVE
  
-"G1[X][Y]"
+"G1[X][Y]M303"
  
  
 +---------------------------------------------------
@@ -127,7 +131,7 @@ begin FEED_MOVE
  
 +begin CW_ARC_MOVE
  
-+"G2[X][Y][I][J]"
++"G2[X][Y][I][J]M303"
  
  
 +---------------------------------------------------
@@ -145,7 +149,7 @@ begin FEED_MOVE
  
 +begin CCW_ARC_MOVE
  
-+"G3[X][Y][I][J]"
++"G3[X][Y][I][J]M303"
  
  
 + ---------------------------------------------------
