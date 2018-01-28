@@ -168,10 +168,12 @@ begin RETRACT_MOVE
  
 begin FOOTER
 
-"(Turn off Laser relay)" 
+
 "M304"
-"M302"
 "(Reset offset co-ordinates)"
 "G92.1"
 +"G0[ZH]"
-"G0[XH][YH]M30"
+"G0[XH][YH]"
+"(Turn off Laser relay)" 
+"M302"
+"M30"
