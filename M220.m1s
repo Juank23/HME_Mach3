@@ -1,1 +1,0 @@
-'M210 Limiting Mach3 Script 'Created: C. Stewart cstewart000@gmail.com 21/01/2018X = MinX()Y = MinY()Message(MinX & " " & MinY)                
