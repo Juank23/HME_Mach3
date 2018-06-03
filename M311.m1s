@@ -1,1 +1,0 @@
-'This script enables a relay to be switched on by calling M311 in the GCODE file.'’Output2’ must be mapped to ‘pin 14’ which has the relay attachedActivateSignal(Output2)Speak "pumps on"  
